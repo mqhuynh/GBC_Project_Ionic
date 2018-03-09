@@ -1,14 +1,16 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Testing Components
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+
+  <button [navPush] = "aboutPage" ion-button color="secondary" outline>List of Employees </button>
+  <button [navPush] = "infoPage" ion-button color="danger" outline>Cards </button>
+  <button [navPush] = "searchPage" ion-button color="danger" outline> SearchButton </button>
+
 </ion-content>
